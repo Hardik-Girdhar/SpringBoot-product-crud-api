@@ -1,0 +1,27 @@
+### GET request
+GET http://localhost:8080/products
+
+### GET request
+GET http://localhost:8080/products/1
+
+### POST request
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "prodName" : "Calender",
+    "prodPrice":1000
+}
+
+### PUT request
+PUT http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "prodId" : 101,
+    "prodName" : "Maal",
+    "prodPrice":30000
+}
+
+### DELETE request
+DELETE http://localhost:8080/products/5
